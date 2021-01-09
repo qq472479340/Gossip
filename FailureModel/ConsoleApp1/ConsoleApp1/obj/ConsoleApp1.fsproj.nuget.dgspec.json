@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/prince/Desktop/UF_Courses/DOSP/Project_2/project2-bonus/ConsoleApp1/ConsoleApp1/ConsoleApp1.fsproj": {}
+  },
+  "projects": {
+    "/Users/prince/Desktop/UF_Courses/DOSP/Project_2/project2-bonus/ConsoleApp1/ConsoleApp1/ConsoleApp1.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/prince/Desktop/UF_Courses/DOSP/Project_2/project2-bonus/ConsoleApp1/ConsoleApp1/ConsoleApp1.fsproj",
+        "projectName": "ConsoleApp1",
+        "projectPath": "/Users/prince/Desktop/UF_Courses/DOSP/Project_2/project2-bonus/ConsoleApp1/ConsoleApp1/ConsoleApp1.fsproj",
+        "packagesPath": "/Users/prince/.nuget/packages/",
+        "outputPath": "/Users/prince/Desktop/UF_Courses/DOSP/Project_2/project2-bonus/ConsoleApp1/ConsoleApp1/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/prince/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-tools/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Akka": {
+              "target": "Package",
+              "version": "[1.4.10, )",
+              "generatePathProperty": true
+            },
+            "Akka.FSharp": {
+              "target": "Package",
+              "version": "[1.4.10, )",
+              "generatePathProperty": true
+            },
+            "Akka.Remote": {
+              "target": "Package",
+              "version": "[1.4.10, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[5.0.0-beta.*, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100-rc.1.20452.10/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
